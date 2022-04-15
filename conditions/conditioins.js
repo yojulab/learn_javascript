@@ -9,6 +9,10 @@ if (number < 10) {
     console.log('Много');
 }
 
+// 삼항 연산자
+let condition = number > 10 ? console.log('Много') : console.log('Мало');
+console.log(condition);
+
 // == vs ===
 // == is a loose comparison
 // === is a strict comparison

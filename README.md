@@ -15,6 +15,8 @@
 |condition|if|[js](./conditioins.js)||
 |variable type|object|[js](./variables/objects.js)||
 |function|basic|[js](./functions/functions.js)||
+|function|map, filter, reduce|[js](./functions/map_filter_reduce.js)||
 |function|호이스팅(hoisting)|[js](./functions/functions.js)||
 |function|렉시컬 스코프(Lexical Scope)|[js](./functions/functions.js)||
+|DOM|dom|[htm](./dom.html), [js](./DOM/doms.js)||
 |api|json|[js](./apis/jsons.js)||

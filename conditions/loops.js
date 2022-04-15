@@ -20,10 +20,14 @@ while (i < animals.length) {
 // }
 
 // learning after object
-// const animals = [
-//     {name: 'dog', species: 'canine'},
-//     {name: 'cat', species: 'feline'},
-//     {name: 'bird', species: 'avian'},
-//     {name: 'fish', species: 'aquatic'},
-//     {name: 'lizard', species: 'reptile'},
-// ];
+const animals_obj = [
+    {name: 'dog', species: 'canine'},
+    {name: 'cat', species: 'feline'},
+    {name: 'bird', species: 'avian'},
+    {name: 'fish', species: 'aquatic'},
+    {name: 'lizard', species: 'reptile'},
+];
+
+animals_obj.forEach(function(animal, index) {
+    console.log(index, animal.species);
+});
