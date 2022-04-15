@@ -8,13 +8,13 @@
 |--|--|--|--|
 |src||[js](./prints.js)||
 |?|use strict|||
-|variable define|var, let, const|[js](./variable_type.js)||
-|variable types|string, number, boolean, null, undefined, symbol, array|[js](./variable_type.js)||
-|variable type|string|[js](./strings.js)||
-|variable type|array|[js](./arrays.js)||
+|variable define|var, let, const|[js](./variables/variable_type.js)||
+|variable types|string, number, boolean, null, undefined, symbol, array|[js](./variables/variable_type.js)||
+|variable type|string|[js](./variables/strings.js)||
+|variable type|array|[js](./variables/arrays.js)||
 |condition|if|[js](./conditioins.js)||
-|variable type|object|[js](./objects.js)||
-|function|basic|[js](./functions.js)||
-|function|호이스팅(hoisting)|[js](./functions.js)||
-|function|렉시컬 스코프(Lexical Scope)|[js](./functions.js)||
-|api|json|[js](./jsons.js)||
+|variable type|object|[js](./variables/objects.js)||
+|function|basic|[js](./functions/functions.js)||
+|function|호이스팅(hoisting)|[js](./functions/functions.js)||
+|function|렉시컬 스코프(Lexical Scope)|[js](./functions/functions.js)||
+|api|json|[js](./apis/jsons.js)||
