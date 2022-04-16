@@ -11,7 +11,6 @@
 |분류|주제|구현|참조|
 |--|--|--|--|
 |console||[js](./prints.js)||
-
 |parsing|script async 와 defer의 차이점, use strict||[youtube 8:40](https://youtu.be/tJieVCgGzhs)|
 </details>
 
@@ -43,5 +42,4 @@
 |분류|주제|구현|참조|
 |--|--|--|--|
 ||To Do List|[htm](./todo_list.html),[css](./css/style_01.css),[js](./todo_list.js)|[google icons](https://fonts.google.com/icons)|
-    
 </details>
