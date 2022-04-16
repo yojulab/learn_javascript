@@ -10,7 +10,7 @@
     
 |분류|주제|구현|참조|
 |--|--|--|--|
-|console||[js](./prints.js)||
+|Dev tool|console|[js](./prints.js)||
 |parsing|script async 와 defer의 차이점, use strict||[youtube 8:40](https://youtu.be/tJieVCgGzhs)|
 </details>
 
