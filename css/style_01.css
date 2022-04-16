@@ -19,7 +19,7 @@ header{
     justify-content: center;
 }
 
-#inputer {
+#inputext {
     width: 70%;
     height: 50px;
     border: 1px solid #ccc;
@@ -29,7 +29,7 @@ header{
     background-color: #fff;
     color: #000;
 }
-.add {
+#add-button {
     width: 20%;
     height: 50px;
     border: 1px solid #ccc;
@@ -39,16 +39,15 @@ header{
     background-color: rgb(79, 137, 169);
     color: #000;
 }
-.add:hover {
+#add-button:hover {
     cursor: pointer;
     background-color: rgb(157, 69, 167);
     color: #fff;
 }
-.list li {
+#items li {
     display: flex;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 0.3em;
     font-size: 1.5em;
     background-color: #fff;
     color: #000;
@@ -66,4 +65,7 @@ header{
 }
 .delete i {
     color: red;
+}
+.material-icons:hover {
+    cursor: pointer;
 }
