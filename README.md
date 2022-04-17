@@ -42,4 +42,5 @@
 |분류|주제|구현|참조|
 |--|--|--|--|
 ||To Do List|[htm](./todo_list.html),[css](./css/style_01.css),[js](./todo_list.js)|[google icons](https://fonts.google.com/icons)|
+||typing game|htm, bootstrap, js,|[random word api](https://www.wordsapi.com/)|
 </details>
