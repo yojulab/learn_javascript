@@ -7,6 +7,7 @@
 
 <details open>
 <summary>강의 순서</summary>
+#### 수업 따라하기 참조 : https://youtube.com/playlist?list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2
     
 |분류|주제|구현|참조|
 |--|--|--|--|
@@ -36,6 +37,7 @@
 |api|json|[js](./apis/jsons.js)||
 |api|http|[js](./apis/apis.js)|[covid19 > Doc view](https://covid19api.com/)|
 </details>
+
 <details open>
 <summary>toy project</summary>
 
