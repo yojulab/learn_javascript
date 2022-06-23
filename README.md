@@ -4,6 +4,7 @@
     - VSCode 
         - Extensions : Hot Reload 기능, Live Server (Ritwick Dey) 
 + boilerplate : 기초 코드
+### 수업 참조 : sesac.seoul.kr : https://bit.ly/3PldUKV
 
 <details open>
 <summary>강의 순서</summary>
