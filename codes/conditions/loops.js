@@ -1,6 +1,10 @@
 const animals = ["dog", "cat", "bird", "fish", "lizard"];
 
 for (let i = 0; i < animals.length; i++) {
+  // if (i == 2) continue;
+  // if (i > 3) {
+  //   break;
+  // }
   console.log(animals[i]);
 }
 
@@ -9,6 +13,7 @@ for (let i = 0; i < animals.length; i = i + 2) {
 }
 
 for (let animal of animals) {
+  // in array
   console.log(animal);
 }
 
@@ -31,6 +36,11 @@ const animals_obj = [
   { name: "fish", species: "aquatic" },
   { name: "lizard", species: "reptile" },
 ];
+
+for (let animals in animals_obj) {
+  console.log(`${animals_obj[animals].name}`);
+  // console.log(`${animals.name}, ${animals.species}`);
+}
 
 animals_obj.forEach(function (animal, index) {
   console.log(index, animal.species);
