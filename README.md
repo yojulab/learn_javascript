@@ -33,8 +33,8 @@
 |function|렉시컬 스코프(Lexical Scope)|[js](./codes/functions/functions.js)||
 |function|map, filter, reduce|[js](./codes/functions/map_filter_reduce.js)||
 |function|OOP, class|[js](./codes/functions/OOP.js)|[youtube](https://youtu.be/fU25vI0EOOk)|
-|DOM|dom|[htm](./dom.html), [js](./codes/DOM/doms.js)||
-|DOM|event|[htm](./dom.html), [js](./codes/DOM/events.js)||
+|DOM|dom|[htm](./codes/dom.html), [js](./codes/DOM/doms.js)||
+|DOM|event|[htm](./codes/dom.html), [js](./codes/DOM/events.js)||
 |api|json|[js](./codes/apis/jsons.js)||
 |api|http|[js](./codes/apis/apis.js)|[covid19 > Doc view](https://covid19api.com/)|
 </details>
@@ -44,6 +44,6 @@
 
 |분류|주제|구현|참조|
 |--|--|--|--|
-||To Do List|[htm](./todo_list.html),[css](./css/style_01.css),[js](./codes/todo_list.js)|[google icons](https://fonts.google.com/icons)|
+||To Do List|[htm](./cases/todo_list/todo_list.html),[css](./cases/todo_list/css/style_01.css),[js](./cases/todo_list/todo_list.js)|[google icons](https://fonts.google.com/icons)|
 ||typing game|htm, bootstrap, js,|[random word api](https://www.wordsapi.com/)|
 </details>
