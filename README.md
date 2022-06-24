@@ -13,14 +13,6 @@
 |분류|주제|구현|참조|
 |--|--|--|--|
 |Dev tool|console|[js](./codes/prints.js)||
-|parsing|script async 와 defer의 차이점, use strict||[youtube 8:40](https://youtu.be/tJieVCgGzhs)|
-</details>
-
-<details>
-<summary>이전 순서</summary>
-    
-|분류|주제|구현|참조|
-|--|--|--|--|
 |data types|var, let, const|[js](./codes/variables/variable_type.js)||
 |variable type|primative|[js](./codes/variables/variable_type.js)|[youtube](https://youtu.be/__Zz17_5FRU)|
 |variable type|string|[js](./codes/variables/strings.js)||
@@ -38,6 +30,15 @@
 |DOM|event|[htm](./codes/dom.html), [js](./codes/DOM/events.js)||
 |api|json|[js](./codes/apis/jsons.js)||
 |api|http|[js](./codes/apis/apis.js)|[covid19 > Doc view](https://covid19api.com/)|
+|--|--|--|--|
+|parsing|script async 와 defer의 차이점, use strict||[youtube 8:40](https://youtu.be/tJieVCgGzhs)|
+</details>
+
+<details>
+<summary>이전 순서</summary>
+    
+|분류|주제|구현|참조|
+|--|--|--|--|
 </details>
 
 <details open>
