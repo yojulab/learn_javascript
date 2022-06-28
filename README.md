@@ -17,7 +17,7 @@
 |variable type|primative|[js](./codes/variables/variable_type.js)|[youtube](https://youtu.be/__Zz17_5FRU)|
 |variable type|string|[js](./codes/variables/strings.js)||
 |variable type|array|[js](./codes/variables/arrays.js)||
-|variable type|boolean||[youtube](https://youtu.be/SswrP0JLNGY)|
+|variable type|boolean|[js](./codes/variables/booleans.js)|[youtube](https://youtu.be/SswrP0JLNGY)|
 |condition|if|[js](./codes/conditions/conditioins.js)||
 |condition|for|[js](./codes/conditions/loops.js)||
 |variable type|object|[js](./codes/variables/objects.js)|[youtube](https://youtu.be/__Zz17_5FRU)|
