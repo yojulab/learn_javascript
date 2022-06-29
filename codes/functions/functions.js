@@ -55,6 +55,11 @@ function printRestparam(...args) {
 
 printRestparam(number_1, number_2, number_3);
 
+// Immediately Invoked Function Expression
+(function printSomeThing() {
+  console.log(`IIEF`);
+})();
+
 // ? return values
 // function returnValues(item_1) {
 //   const val_sum = item_1 + item_1;
