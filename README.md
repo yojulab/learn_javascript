@@ -16,15 +16,17 @@
 |data types|var, let, const|[js](./codes/variables/variable_type.js)||
 |variable type|primative|[js](./codes/variables/variable_type.js)|[youtube](https://youtu.be/__Zz17_5FRU)|
 |variable type|string|[js](./codes/variables/strings.js)||
+|operators|operator|[js](./codes/variables/operaters.js)||
 |variable type|array|[js](./codes/variables/arrays.js)||
 |variable type|boolean|[js](./codes/variables/booleans.js)|[youtube](https://youtu.be/SswrP0JLNGY)|
 |condition|if|[js](./codes/conditions/conditioins.js)||
-|condition|for|[js](./codes/conditions/loops.js)||
+|condition|loops|[js](./codes/conditions/loops.js)||
 |variable type|object|[js](./codes/variables/objects.js)|[youtube](https://youtu.be/__Zz17_5FRU)|
-|function|basic, callback|[js](./codes/functions/functions.js)|[youtube](https://youtu.be/-cAPq25P-68)|
+|function|basic|[js](./codes/functions/functions.js)|[youtube](https://youtu.be/-cAPq25P-68)|
 |function|호이스팅(hoisting)|[js](./codes/functions/functions.js)||
 |function|렉시컬 스코프(Lexical Scope)|[js](./codes/functions/functions.js)||
 |function|map, filter, reduce|[js](./codes/functions/map_filter_reduce.js)||
+|condition|callback|[js](./codes/functions/callback.js)||
 |function|OOP, class|[js](./codes/functions/OOP.js)|[youtube](https://youtu.be/fU25vI0EOOk)|
 |DOM|dom|[htm](./codes/dom.html), [js](./codes/DOM/doms.js)||
 |DOM|event|[htm](./codes/dom.html), [js](./codes/DOM/events.js)||

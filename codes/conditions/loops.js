@@ -37,8 +37,8 @@ const animals_obj = [
   { name: "lizard", species: "reptile" },
 ];
 
-for (let animals in animals_obj) {
-  console.log(`${animals_obj[animals].name}`);
+for (let index in animals_obj) {
+  console.log(`${animals_obj[index].name}`);
   // console.log(`${animals.name}, ${animals.species}`);
 }
 

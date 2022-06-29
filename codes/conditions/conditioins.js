@@ -1,35 +1,35 @@
-'use strict'
+"use strict";
 const number = 5;
 
 if (number < 10) {
-    console.log('Мало');
+  console.log("Мало");
 } else if (number == 10) {
-    console.log('В точку');
+  console.log("В точку");
 } else {
-    console.log('Много');
+  console.log("Много");
 }
 
-// 삼항 연산자
-let condition = number > 10 ? console.log('Много') : console.log('Мало');
+// Ternary operator
+let condition = number > 10 ? console.log("Много") : console.log("Мало");
 console.log(condition);
 
 // == vs ===
 // == is a loose comparison
 // === is a strict comparison
 
-const animal = 'cat';
+const animal = "cat";
 
 switch (animal) {
-    case 'cat':
-        console.log('Meow');
-        break;
-    case 'dog':
-        console.log('Woof');
-        break;
-    case 'mouse':
-    case 'bird':
-        console.log('Tweet');
-        break;
-    default:
-        console.log('No sound');
+  case "cat":
+    console.log("Meow");
+    break;
+  case "dog":
+    console.log("Woof");
+    break;
+  case "mouse":
+  case "bird":
+    console.log("Tweet");
+    break;
+  default:
+    console.log("No sound");
 }
