@@ -16,7 +16,7 @@
 |data types|var, let, const|[js](./codes/variables/variable_type.js)||
 |variable type|primative|[js](./codes/variables/variable_type.js)|[youtube](https://youtu.be/__Zz17_5FRU)|
 |variable type|string|[js](./codes/variables/strings.js)||
-|operators|operator|[js](./codes/variables/operaters.js)||
+|operators|operator|[js](./codes/operators/operaters.js)||
 |variable type|array|[js](./codes/variables/arrays.js)||
 |variable type|boolean|[js](./codes/variables/booleans.js)|[youtube](https://youtu.be/SswrP0JLNGY)|
 |condition|if|[js](./codes/conditions/conditioins.js)||
@@ -26,8 +26,9 @@
 |function|호이스팅(hoisting)|[js](./codes/functions/functions.js)||
 |function|렉시컬 스코프(Lexical Scope)|[js](./codes/functions/functions.js)||
 |function|map, filter, reduce|[js](./codes/functions/map_filter_reduce.js)||
-|condition|callback|[js](./codes/functions/callback.js)||
-|function|OOP, class|[js](./codes/functions/OOP.js)|[youtube](https://youtu.be/fU25vI0EOOk)|
+|function|callback|[js](./codes/functions/callback.js)||
+|class|OOP, class|[js](./codes/classes/OOP.js)||
+|class|inheritance|[js](./codes/classes/inheritance.js)||
 |DOM|dom|[htm](./codes/dom.html), [js](./codes/DOM/doms.js)||
 |DOM|event|[htm](./codes/dom.html), [js](./codes/DOM/events.js)||
 |api|json|[js](./codes/apis/jsons.js)||
