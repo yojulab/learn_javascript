@@ -12,6 +12,7 @@ for (let i = 0; i < animals.length; i = i + 2) {
   console.log(animals[i]);
 }
 
+// for iterable
 for (let animal of animals) {
   // in array
   console.log(animal);
@@ -37,6 +38,7 @@ const animals_obj = [
   { name: "lizard", species: "reptile" },
 ];
 
+// for object
 for (let index in animals_obj) {
   console.log(`${animals_obj[index].name}`);
   // console.log(`${animals.name}, ${animals.species}`);
