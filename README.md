@@ -29,8 +29,8 @@
 |function|callback|[js](./codes/functions/callback.js)||
 |class|OOP, class|[js](./codes/classes/OOP.js)||
 |class|inheritance|[js](./codes/classes/inheritance.js)||
-|DOM|dom|[htm](./codes/dom.html), [js](./codes/DOM/doms.js)||
-|DOM|event|[htm](./codes/dom.html), [js](./codes/DOM/events.js)||
+|DOM|dom|[htm](./codes/doms.html), [js](./codes/DOMs/doms.js)||
+|DOM|event|[htm](./codes/doms.html), [js](./codes/DOMs/events.js)||
 |api|json|[js](./codes/apis/jsons.js)||
 |asynch|asynch|[js](./codes/apis/callbackForAPI.js)||
 |asynch|promise|[js](./codes/apis/promises.js), [js](./codes/apis/promisesErrorHanding.js)|[youtube](https://youtu.be/JB_yU6Oe2eE)|
