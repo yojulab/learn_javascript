@@ -32,8 +32,9 @@
 |DOM|dom|[htm](./codes/dom.html), [js](./codes/DOM/doms.js)||
 |DOM|event|[htm](./codes/dom.html), [js](./codes/DOM/events.js)||
 |api|json|[js](./codes/apis/jsons.js)||
-|api|asynch|[js](./codes/apis/callbackForAPI.js)||
-|asynch|promise|[js](./codes/apis/promises.js), [js](./codes/apis/promisesErrorHanding.js)||
+|asynch|asynch|[js](./codes/apis/callbackForAPI.js)||
+|asynch|promise|[js](./codes/apis/promises.js), [js](./codes/apis/promisesErrorHanding.js)|[youtube](https://youtu.be/JB_yU6Oe2eE)|
+|asynch|await||[youtube](https://youtu.be/aoQSOZfz3vQ)|
 |api|http api|[js](./codes/apis/apis.js)|[covid19 > Doc view](https://covid19api.com/)|
 |--|--|--|--|
 |parsing|script async 와 defer의 차이점, use strict||[youtube 8:40](https://youtu.be/tJieVCgGzhs)|
