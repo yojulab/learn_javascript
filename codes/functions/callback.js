@@ -1,5 +1,7 @@
 "use strick";
+// JavaScript is synchronous.
 
+// make callback function
 const number_1 = 1000;
 const number_2 = 2000;
 
