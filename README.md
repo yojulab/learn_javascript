@@ -12,7 +12,7 @@
     
 |분류|주제|구현|참조|
 |--|--|--|--|
-|Dev tool|console|[js](./codes/prints.js)||
+|Dev tool|console, debugging|[js](./codes/prints.js)||
 |data types|var, let, const|[js](./codes/variables/variable_type.js)||
 |variable type|primative|[js](./codes/variables/variable_type.js)|[youtube](https://youtu.be/__Zz17_5FRU)|
 |variable type|string|[js](./codes/variables/strings.js)||
