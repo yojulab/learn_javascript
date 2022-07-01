@@ -45,6 +45,6 @@
 
 |분류|주제|구현|참조|
 |--|--|--|--|
-||To Do List|[htm](./cases/todo_list/todo_list.html),[css](./cases/todo_list/css/style_01.css),[js](./cases/todo_list/todo_list.js)|[google icons](https://fonts.google.com/icons)|
+||To Do List|[htm](./cases/todo_list/todo_list.html),[css](./cases/todo_list/css/style_01.css),[js](./cases/todo_list/js/todo_list.js)|[google icons](https://fonts.google.com/icons)|
 ||typing game|htm, bootstrap, js,|[random word api](https://www.wordsapi.com/)|
 </details>
