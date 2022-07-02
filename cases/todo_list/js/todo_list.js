@@ -54,9 +54,9 @@ function addItem() {
   const delete_icons = target_item.querySelector(".delete>i");
   delete_icons.addEventListener("click", function (event) {
     const target = event.target;
-    console.log(`favorite : ${target.innerText}`);
-    // const item = target.parentElement.parentElement;
-    target_item.remove();
+    console.log(`delete : ${target.innerText}`);
+    const item = target.parentElement.parentElement.parentElement;
+    item.remove();
   });
 
   inputTextFocus(inputText);
