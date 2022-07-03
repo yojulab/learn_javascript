@@ -16,7 +16,7 @@
 |data types|var, let, const|[js](./codes/variables/variable_type.js)||
 |variable type|primative|[js](./codes/variables/variable_type.js)|[youtube](https://youtu.be/__Zz17_5FRU)|
 |variable type|string|[js](./codes/variables/strings.js)||
-|operators|operator|[js](./codes/operators/operaters.js)||
+|variable type|numbers|[js](./codes/variables/numbers.js)||
 |variable type|array|[js](./codes/variables/arrays.js)||
 |variable type|boolean|[js](./codes/variables/booleans.js)|[youtube](https://youtu.be/SswrP0JLNGY)|
 |condition|if|[js](./codes/conditions/conditioins.js)||

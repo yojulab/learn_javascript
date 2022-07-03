@@ -28,25 +28,3 @@ counter /= number;
 5 < 6;
 5 <= 6;
 counter >= number;
-
-// logical operators : ||, &&, !
-const bool_true = true;
-const bool_false = false;
-const val_true = 5 < 6;
-const val_false = 5 >= 6;
-
-bool_true || bool_false;
-val_false || val_true;
-
-bool_true && bool_false;
-val_true && val_false;
-
-!val_false || val_true;
-
-// Equality Operators
-const strTwo = "2";
-const numberTwo = 2;
-
-strTwo == numberTwo;
-strTwo === numberTwo;
-strTwo !== numberTwo;
