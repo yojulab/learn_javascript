@@ -25,8 +25,8 @@
 |function|basic|[js](./codes/functions/functions.js)|[youtube](https://youtu.be/-cAPq25P-68)|
 |function|호이스팅(hoisting)|[js](./codes/functions/functions.js)||
 |function|렉시컬 스코프(Lexical Scope)|[js](./codes/functions/functions.js)||
-|function|map, filter, reduce|[js](./codes/functions/map_filter_reduce.js)||
 |function|callback|[js](./codes/functions/callback.js)||
+|function|map, filter, reduce|[js](./codes/functions/map_filter_reduce.js)||
 |class|OOP, class|[js](./codes/classes/OOP.js)||
 |class|inheritance|[js](./codes/classes/inheritance.js)||
 |DOM|dom|[htm](./codes/doms.html), [js](./codes/DOMs/doms.js)||
