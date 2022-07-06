@@ -36,7 +36,7 @@
 |asynch|promise|[js](./codes/apis/promises.js), [js](./codes/apis/promisesErrorHanding.js)|[youtube](https://youtu.be/JB_yU6Oe2eE)|
 |asynch|await|[js](./codes/apis/asyncs.js)||
 |api|http api|[js](./codes/apis/apis.js)|[covid19 > Doc view](https://covid19api.com/)|
-|--|--|--|--|
+|nodejs|exports, require|[js](./codes/nodejs/exports_nodejs.js),[js](./codes/nodejs/require_nodejs.js) |--|
 |parsing|script async 와 defer의 차이점, use strict||[youtube 8:40](https://youtu.be/tJieVCgGzhs)|
 </details>
 
@@ -45,6 +45,6 @@
 
 |분류|주제|구현|참조|
 |--|--|--|--|
-||To Do List|[htm](./cases/todo_list/todo_list.html),[css](./cases/todo_list/css/style_01.css),[js](./cases/todo_list/js/todo_list.js)|[google icons](https://fonts.google.com/icons)|
+||To Do List|[htm](./cases/todo_list/todo_list.html),[css](./cases/todo_list/css/style_01.css),[js](./cases/todo_list/js/todo_list.js)|[URL](https://sanghunoh.github.io/learn_javascript/cases/todo_list/todo_list.html), [google icons](https://fonts.google.com/icons)|
 ||typing game|htm, bootstrap, js,|[random word api](https://www.wordsapi.com/)|
 </details>
