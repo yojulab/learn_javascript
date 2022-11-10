@@ -13,8 +13,8 @@
 |variable type|numbers|[js](./codes/variables/numbers.js)||
 |variable type|array|[js](./codes/variables/arrays.js)||
 |variable type|boolean|[js](./codes/variables/booleans.js)|[youtube](https://youtu.be/SswrP0JLNGY)|
-|condition|if|[js](./codes/conditions/conditioins.js)||
-|condition|loops|[js](./codes/conditions/loops.js)||
+|loops|if, switch|[js](./codes/loops/ifs.js)||
+|loops|while, forEach|[js](./codes/loops/whiles.js)||
 |variable type|object|[js](./codes/variables/objects.js)|[youtube](https://youtu.be/__Zz17_5FRU)|
 |function|basic|[js](./codes/functions/functions.js)|[youtube](https://youtu.be/-cAPq25P-68)|
 |function|호이스팅(hoisting)|[js](./codes/functions/functions.js)||
