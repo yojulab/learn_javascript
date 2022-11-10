@@ -1,14 +1,9 @@
 # javascript (바닐라 스크립트 ES6)
-+ official apis : https://developer.mozilla.org/en-US/
-+ tool
-    - VSCode 
-        - Extensions : Hot Reload 기능, Live Server (Ritwick Dey) 
-+ boilerplate : 기초 코드
-### 수업 참조 : sesac.seoul.kr : https://bit.ly/3PldUKV
+[web index](https://yojulab.github.io/learn_javascripts/)
 
 <details open>
 <summary>강의 순서</summary>
-#### 수업 따라하기 참조 : https://youtube.com/playlist?list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2
+#### 수업 참조 : https://youtube.com/playlist?list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2
     
 |분류|주제|구현|참조|
 |--|--|--|--|
@@ -41,7 +36,7 @@
 </details>
 
 <details open>
-<summary>toy project</summary>
+<summary>Cases</summary>
 
 |분류|주제|구현|참조|
 |--|--|--|--|
