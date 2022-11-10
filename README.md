@@ -1,5 +1,4 @@
-# javascript (바닐라 스크립트 ES6)
-[web index](https://yojulab.github.io/learn_javascripts/)
+#### [web pages link](https://yojulab.github.io/learn_javascripts/)
 
 <details open>
 <summary>강의 순서</summary>
