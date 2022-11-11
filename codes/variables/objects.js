@@ -28,8 +28,19 @@ monkey.eatSomething("mangos");
 monkey.eatSomethingArrow("strawberry");
 
 monkey.isLive = true;
-// delete monkey;   // 동작 안 함.
-true;
+
+// keys, values Array
+keys_array = Object.keys(monkey);
+console.log(`keys_array : ${keys_array}`);
+values_array = Object.values(monkey);
+console.log(`values_array : ${values_array}`);
+
+// delete property
+delete monkey.isLive;
+
+// delete Object
+monkey = {};
+
 // property value shorthand
 console.clear();
 const people_first = { name: "Tom", age: 10 };
