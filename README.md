@@ -1,7 +1,7 @@
 #### [web pages link](https://yojulab.github.io/learn_javascripts/)
 
 <details open>
-<summary>강의 순서</summary>
+<summary>Vanilla js 강의 순서</summary>
 #### 수업 참조 : https://youtube.com/playlist?list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2
     
 |분류|주제|구현|참조|
@@ -23,8 +23,6 @@
 |function|map, filter, reduce|[js](./docs/vanilla_js/functions/map_filter_reduce.js)||
 |class|OOP, class|[js](./docs/vanilla_js/classes/OOP.js)||
 |class|inheritance|[js](./docs/vanilla_js/classes/inheritance.js)||
-|DOM|dom|[htm](./docs/vanilla_js/doms.html), [js](./docs/vanilla_js/DOMs/doms.js)||
-|DOM|event|[htm](./docs/vanilla_js/doms.html), [js](./docs/vanilla_js/DOMs/events.js)||
 |api|json|[js](./docs/vanilla_js/apis/jsons.js)||
 |asynch|callbackForAPI|[js](./docs/vanilla_js/apis/callbackForAPI.js)||
 |asynch|promise|[js](./docs/vanilla_js/apis/promises.js), [js](./docs/vanilla_js/apis/promisesErrorHanding.js)|[youtube](https://youtu.be/JB_yU6Oe2eE)|
@@ -32,6 +30,16 @@
 |api|fetch|[js](./docs/vanilla_js/apis/apis.js)|[covid19 > Doc view](https://covid19api.com/)|
 |nodejs|exports, require|[js](./docs/vanilla_js/nodejs/exports_nodejs.js),[js](./docs/vanilla_js/nodejs/require_nodejs.js) |--|
 |parsing|script async 와 defer의 차이점, use strict||[youtube 8:40](https://youtu.be/tJieVCgGzhs)|
+</details>
+
+<details open>
+<summary>Vanilla js 강의 순서</summary>
+#### 수업 참조 : https://youtube.com/playlist?list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2
+    
+|분류|주제|구현|참조|
+|--|--|--|--|
+|DOM|dom|[htm](./docs/vanilla_js/doms.html), [js](./docs/vanilla_js/DOMs/doms.js)||
+|DOM|event|[htm](./docs/vanilla_js/doms.html), [js](./docs/vanilla_js/DOMs/events.js)||
 </details>
 
 <details open>
