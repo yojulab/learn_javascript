@@ -1,4 +1,16 @@
-"use strict";
+// Comparison Operators
+5 < 6;
+5 <= 6;
+
+let counter = 1;
+let number = 3;
+counter >= number;
+
+// == vs ===
+// == is a loose comparison
+// === is a strict comparison
+
+("use strict");
 const number = 5;
 
 if (number < 10) {
@@ -13,10 +25,7 @@ if (number < 10) {
 let condition = number > 10 ? console.log("Много") : console.log("Мало");
 console.log(condition);
 
-// == vs ===
-// == is a loose comparison
-// === is a strict comparison
-
+// switch
 const animal = "cat";
 
 switch (animal) {

@@ -6,15 +6,16 @@
     
 |분류|주제|구현|참조|
 |--|--|--|--|
-|Dev tool|console, debugging|[js](./docs/vanilla_js/prints.js)||
+|Dev tool|console, debugging|[js](./docs/vanilla_js/prints.js)|[Test](https://www.acmicpc.net/problem/10171)|
 |data types|var, let, const|[js](./docs/vanilla_js/variables/variable_type.js)||
 |variable type|primative|[js](./docs/vanilla_js/variables/variable_type.js)|[youtube](https://youtu.be/__Zz17_5FRU)|
 |variable type|string|[js](./docs/vanilla_js/variables/strings.js)||
-|variable type|numbers|[js](./docs/vanilla_js/variables/numbers.js)||
+|variable type|numbers|[js](./docs/vanilla_js/variables/numbers.js)|[Test](https://www.acmicpc.net/problem/10869)|
 |variable type|array|[js](./docs/vanilla_js/variables/arrays.js)||
 |variable type|boolean|[js](./docs/vanilla_js/variables/booleans.js)|[youtube](https://youtu.be/SswrP0JLNGY)|
-|loops|if, switch|[js](./docs/vanilla_js/loops/ifs.js)||
-|loops|while, forEach|[js](./docs/vanilla_js/loops/whiles.js)||
+|variable type|input for Coding Test|[js](./docs/vanilla_js/variables/inputs.js)||
+|conditions|if, switch|[condition](./docs/vanilla_js/conditions/conditions.js)||
+|loops|while, forEach|[js](./docs/vanilla_js/loops/loops.js)||
 |variable type|object|[js](./docs/vanilla_js/variables/objects.js)|[youtube](https://youtu.be/__Zz17_5FRU)|
 |function|basic|[js](./docs/vanilla_js/functions/functions.js)|[youtube](https://youtu.be/-cAPq25P-68)|
 |function|호이스팅(hoisting)|[js](./docs/vanilla_js/functions/functions.js)||
@@ -33,7 +34,7 @@
 </details>
 
 <details open>
-<summary>Vanilla js 강의 순서</summary>
+<summary>Browser js 강의 순서</summary>
 #### 수업 참조 : https://youtube.com/playlist?list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2
     
 |분류|주제|구현|참조|

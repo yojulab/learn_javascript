@@ -23,8 +23,3 @@ counter += number;
 counter -= number;
 counter *= number;
 counter /= number;
-
-// Comparison Operators
-5 < 6;
-5 <= 6;
-counter >= number;
