@@ -1,9 +1,7 @@
 const fs = require("fs");
 
 const filepath =
-  process.platform === "linux"
-    ? "/dev/stdin"
-    : "docs/vanilla_js/variables/input.txt";
+  process.platform === "linux" ? "/dev/stdin" : "docs/vanilla_js/input.txt";
 // let readFileSyncs = fs.readFileSync(filepath);
 // let toStinrgs = readFileSync.toString();
 // let trims = toStinrg.trim();

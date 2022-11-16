@@ -1,3 +1,9 @@
+// object statement
+// {key:value, key:value, key:value}
+const animal = { name: "juju", species: "cat" };
+// animal.name
+// animal.['species']
+
 // define literal way of OOP
 const monkey = {
   name: "George",
@@ -30,9 +36,9 @@ monkey.eatSomethingArrow("strawberry");
 monkey.isLive = true;
 
 // keys, values Array
-keys_array = Object.keys(monkey);
+const keys_array = Object.keys(monkey);
 console.log(`keys_array : ${keys_array}`);
-values_array = Object.values(monkey);
+const values_array = Object.values(monkey);
 console.log(`values_array : ${values_array}`);
 
 // delete property
