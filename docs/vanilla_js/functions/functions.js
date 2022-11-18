@@ -1,3 +1,7 @@
+// function name(parameter1, parameter2, parameter3) {
+//     // code to be executed
+//      return
+//   }
 const number_1 = 1000;
 const number_2 = 2000;
 const number_3 = 3000;

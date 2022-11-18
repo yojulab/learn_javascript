@@ -5,7 +5,7 @@
 console.log("first");
 // console.log("- second - ");
 setTimeout(function () {
-  console.log("- second - ");
+  console.log(`setTimeout : second`);
 }, 2000); // 2 second
 console.log("third"); // check debuging pause
 
