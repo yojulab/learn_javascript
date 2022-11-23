@@ -11,7 +11,7 @@
 // + 답변에 대한 사항 - [1, 2, 4, 3]
 
 // --- 처리
-// + 문항, 설문 답항, 답변 매칭 - data_sheets > answers 기준
+// + 문항, 설문 답항, 답변 매칭 - data_sheets > questions_answers 기준
 
 // --- 출력
 // + 매칭 출력
@@ -21,9 +21,9 @@ let fs = require("fs");
 //   process.platform === "linux" ? "/dev/stdin" : "docs/vanilla_js/input.txt";
 // let input = fs.readFileSync(filepath).toString().trim().split("\n").map(Number);
 
-let input_answers = [1, 2, 4, 3, 1];
+let user_answers = [1, 2, 4, 3, 1];
 // for (let i = 0; i < 5; i++) {
-//   input_answers[i] = input[i];
+//   user_answers[i] = input[i];
 // }
 
 const questions_list = [
@@ -62,7 +62,7 @@ const example_list = [
   { example: "매우 그렇다", example_uid: "E5", order: 5 },
 ];
 
-const answers = [
+const questions_answers = [
   { questions_uid: "Q1", example_uid: "E1" },
   { questions_uid: "Q1", example_uid: "E2" },
   //   { questions_uid: "Q1", example_uid: "E3" },
@@ -84,17 +84,29 @@ const answers = [
 
 let question_compare;
 let idx;
-for (idx = 0; idx < answers.length; idx++) {
-  if (question_compare == answers[idx]["questions_uid"]) {
+let polls = [];
+let questions = []; // questions and answers
+for (idx = 0; idx < questions_answers.length; idx++) {
+  if (question_compare != questions_answers[idx]["questions_uid"]) {
+    if (questions.length > 0) {
+      polls.push(questions);
+      questions = [];
+    }
+    questions.push(questions_answers[idx]["questions_uid"]);
+    questions.push(questions_answers[idx]["example_uid"]);
     console.log(
-      `== : ${answers[idx]["questions_uid"]}, ${answers[idx]["example_uid"]}`
+      `!= : ${questions_answers[idx]["questions_uid"]}, ${questions_answers[idx]["example_uid"]}`
     );
   } else {
+    questions.push(questions_answers[idx]["example_uid"]);
     console.log(
-      `!= : ${answers[idx]["questions_uid"]}, ${answers[idx]["example_uid"]}`
+      `== : ${questions_answers[idx]["questions_uid"]}, ${questions_answers[idx]["example_uid"]}`
     );
+    if (idx + 1 >= questions_answers.length) {
+      polls.push(questions);
+    }
   }
 
-  question_compare = answers[idx]["questions_uid"];
+  question_compare = questions_answers[idx]["questions_uid"];
 }
-console.log(`${answers.length}, ${idx}`);
+console.log(`${questions_answers.length}, ${idx}`);

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>ToDo List</h1>
+    <ul class="itemList">
+        <li>
+            <input type="checkbox" id="item1">
+            <label for="item1">이벤트 버블링 학습</label>
+        </li>
+        <li>
+            <input type="checkbox" id="item2">
+            <label for="item2">이벤트 캡쳐 학습</label>
+        </li>
+    </ul>
+    <script>
+        // Propagation(전파 방식)
+        /*
+        const inputs = document.querySelectorAll("input");
+        for (input of inputs) {
+            input.addEventListener("click", function (event) {
+                alert("clicked");
+            });
+        }
+        */
+        const itemList = document.querySelector('.itemList');
+        itemList.addEventListener('click', function (event) {
+            //alert('clicked'); 
+            console.log(event.target)
+        });
+        // add item in itemList
+        const items = document.querySelector("ul.itemList");
+        const newItem = `<li>
+            <input type="checkbox" id="item3">
+                <label for="item3">새로운 아이템</label>
+            </li>`;
+        items.innerHTML = items.innerHTML + newItem;
+    </script>
+</body>
+
+</html>
