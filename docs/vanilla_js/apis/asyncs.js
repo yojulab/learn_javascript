@@ -40,6 +40,7 @@ async function showAnimals() {
 showAnimals().then(console.log);
 
 // useful Promise APIs
+// 병령 처리
 function showAllAnimals() {
   return Promise.all([getLion(), getTiger()]).then((animals) =>
     animals.join(",")
@@ -47,6 +48,7 @@ function showAllAnimals() {
 }
 showAllAnimals().then(console.log);
 
+// 먼저 완료된 APIs 처리
 function showFirstAnimals() {
   return Promise.race([getLion(), getTiger()]);
 }
