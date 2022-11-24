@@ -50,7 +50,8 @@
 |분류|주제|구현|참조|
 |--|--|--|--|
 |vanilla_js|min and max|[js](./docs/vanilla_js/cases/loops_min_max.js)|[백준](https://www.acmicpc.net/problem/10818)|
-|vanilla_js|With Poll|[js](./docs/vanilla_js/cases/javascriptWithPoll.js)|[in file](./docs/vanilla_js/cases/javascriptWithPoll.js), [refer url](https://drive.google.com/drive/folders/1IF_3U5OVbPGTtY3_p9k7oaTxuKN4TDC0)|
+|vanilla_js|With Poll|[js](./docs/vanilla_js/cases/javascriptWithPoll.js), [js object](./docs/vanilla_js/cases/javascriptWithPoll_object.js)|[refer url](https://drive.google.com/drive/folders/1IF_3U5OVbPGTtY3_p9k7oaTxuKN4TDC0)|
+|browser js|Polls|[htm](./docs/browser_js/cases/polls/javascriptWithPoll.html),[css](./docs/browser_js/cases/polls/css/javascriptWithPoll.css),[js](./docs/browser_js/cases/polls/js/javascriptWithPoll.js)|[URL](https://sanghunoh.github.io/learn_javascript/cases/polls/javascriptWithPoll.html)|
 |browser js|To Do List|[htm](./docs/browser_js/cases/todo_list/todo_list.html),[css](./docs/browser_js/cases/todo_list/css/style_01.css),[js](./docs/browser_js/cases/todo_list/js/todo_list.js)|[URL](https://sanghunoh.github.io/learn_javascript/cases/todo_list/todo_list.html), [google icons](https://fonts.google.com/icons)|
 |browser js|typing game|htm, bootstrap, js,|[random word api](https://www.wordsapi.com/)|
 </details>
