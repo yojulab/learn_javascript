@@ -54,3 +54,20 @@ const mixins_array = [
 
 // for (item of mixins_array) {
 // }
+
+// after object
+let myArray = [
+  { id: 1, name: "Alice" },
+  { id: 2, name: "Peter" },
+  { id: 3, name: "Harry" },
+];
+
+// Get the Array item which matchs the id "2"
+let result = myArray.find((item) => item.id === 2);
+
+console.log(result.name); // Prints: Peter
+
+let index = myArray.findIndex((item) => item.id === 2);
+
+console.log(index); // Prints: 1
+console.log(myArray[index].name); // Prints: Peter
