@@ -153,10 +153,23 @@ for (poll of polls) {
 let queryNext = document.querySelector("#next");
 queryNext.addEventListener("click", setPollContent);
 
+let index = 0;
 function setPollContent() {
   let queryContent = document.querySelector("#poll-contents");
-  polls[0]["questions_uid"]; // 설문 문항
-  polls[0]["answer_uids"]; // 설문 답항 묶음
-  getQuestionByUid(polls[0]["questions_uid"]);
-  queryContent.innerHTML = "";
+  // polls[0]["questions_uid"]; // 설문 문항
+  // polls[0]["answer_uids"]; // 설문 답항 묶음
+  // 1. 매장 상태가 좋은가요 ?
+  //  (1) 예
+  //  (2) 아니다.
+  // console.log(getQuestionByUid(polls[index]["questions_uid"]));
+  let desc = `<div>${index + 1}. ${getQuestionByUid(
+    polls[index]["questions_uid"]
+  )}</div>`;
+  polls[index]["answer_uids"].forEach((answer_uid, index) => {
+    // answers
+    // console.log(`${index + 1}. ${getAnswerByUid(answer_uid)}`);
+    desc = desc + `<div>(${index + 1}) ${getAnswerByUid(answer_uid)}</div>`;
+  });
+  queryContent.innerHTML = desc;
+  index++;
 }
