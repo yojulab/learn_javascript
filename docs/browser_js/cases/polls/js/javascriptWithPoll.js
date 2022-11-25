@@ -174,10 +174,17 @@ function setPollContent(idx) {
   let desc = `<div>${idx + 1}. ${getQuestionByUid(
     polls[idx]["questions_uid"]
   )}</div>`;
-  polls[idx]["answer_uids"].forEach((answer_uid, idx) => {
+  polls[idx]["answer_uids"].forEach((answer_uid, i) => {
     // answers
     // console.log(`${idx + 1}. ${getAnswerByUid(answer_uid)}`);
-    desc = desc + `<div>(${idx + 1}) ${getAnswerByUid(answer_uid)}</div>`;
+    desc =
+      desc +
+      `<div><input type="radio" value="${answer_uid}" name=${
+        polls[idx]["questions_uid"]
+      } id="${answer_uid}"
+      ></input> <label for="${answer_uid}">(${i + 1}) ${getAnswerByUid(
+        answer_uid
+      )}</label></div>`;
   });
   queryContent.innerHTML = desc;
 }
