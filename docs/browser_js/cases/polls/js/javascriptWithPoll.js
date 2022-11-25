@@ -151,25 +151,45 @@ for (poll of polls) {
 // Next 클릭 시 순서 있게 설문 표시
 // 대상 변수는 polls
 let queryNext = document.querySelector("#next");
-queryNext.addEventListener("click", setPollContent);
+queryNext.addEventListener("click", nextPollContent);
 
 let index = 0;
-function setPollContent() {
+function nextPollContent() {
+  if (index >= polls.length) {
+    window.alert("Done Poll !");
+  } else {
+    setPollContent(index);
+    index++;
+  }
+}
+
+function setPollContent(idx) {
   let queryContent = document.querySelector("#poll-contents");
   // polls[0]["questions_uid"]; // 설문 문항
   // polls[0]["answer_uids"]; // 설문 답항 묶음
   // 1. 매장 상태가 좋은가요 ?
   //  (1) 예
   //  (2) 아니다.
-  // console.log(getQuestionByUid(polls[index]["questions_uid"]));
-  let desc = `<div>${index + 1}. ${getQuestionByUid(
-    polls[index]["questions_uid"]
+  // console.log(getQuestionByUid(polls[idx]["questions_uid"]));
+  let desc = `<div>${idx + 1}. ${getQuestionByUid(
+    polls[idx]["questions_uid"]
   )}</div>`;
-  polls[index]["answer_uids"].forEach((answer_uid, index) => {
+  polls[idx]["answer_uids"].forEach((answer_uid, idx) => {
     // answers
-    // console.log(`${index + 1}. ${getAnswerByUid(answer_uid)}`);
-    desc = desc + `<div>(${index + 1}) ${getAnswerByUid(answer_uid)}</div>`;
+    // console.log(`${idx + 1}. ${getAnswerByUid(answer_uid)}`);
+    desc = desc + `<div>(${idx + 1}) ${getAnswerByUid(answer_uid)}</div>`;
   });
   queryContent.innerHTML = desc;
-  index++;
+}
+
+let queryPrev = document.querySelector("#prev");
+queryPrev.addEventListener("click", prevPollContent);
+
+function prevPollContent() {
+  if (index <= 0) {
+    window.alert("None Poll !");
+  } else {
+    index--;
+    setPollContent(index);
+  }
 }
