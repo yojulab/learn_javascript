@@ -28,7 +28,7 @@
 |asynch|callbackForAPI|[js](./docs/vanilla_js/apis/callbackForAPI.js)||
 |asynch|promise|[js](./docs/vanilla_js/apis/promises.js), [js](./docs/vanilla_js/apis/promisesErrorHanding.js)|[youtube](https://youtu.be/JB_yU6Oe2eE)|
 |asynch|await|[js](./docs/vanilla_js/apis/asyncs.js)||
-|api|fetch|[js](./docs/vanilla_js/apis/apis.js)|[covid19 > Doc view](https://covid19api.com/)|
+|api|fetch|[js](./docs/vanilla_js/apis/fetchs.js)|[covid19 > Doc view](https://covid19api.com/)|
 |nodejs|exports, require|[js](./docs/vanilla_js/nodejs/exports_nodejs.js),[js](./docs/vanilla_js/nodejs/require_nodejs.js) |--|
 |nodejs|input readline|[js](./docs/vanilla_js/nodejs/input_with_readline.js |--|
 |parsing|script async 와 defer의 차이점, use strict||[youtube 8:40](https://youtu.be/tJieVCgGzhs)|
@@ -40,8 +40,10 @@
     
 |분류|주제|구현|참조|
 |--|--|--|--|
-|DOM|dom|[htm](./docs/vanilla_js/doms.html), [js](./docs/vanilla_js/DOMs/doms.js)||
-|DOM|event|[htm](./docs/vanilla_js/doms.html), [js](./docs/vanilla_js/DOMs/events.js)||
+|DOM|dom|[htm](./docs/browser_js/doms.html), [js](./docs/browser_js/js/doms.js)||
+|event|event|[htm](./docs/browser_js/doms.html), [js](./docs/browser_js/js/events.js)||
+|event|propagation|[htm](./docs/browser_js/events_propagation.html), [js](./docs/browser_js/js/events.js)||
+|asych|fatch|[htm](./docs/browser_js/doms.html), [js](./docs/vanilla_js/apis/fetchs.js)||
 </details>
 
 <details open>
