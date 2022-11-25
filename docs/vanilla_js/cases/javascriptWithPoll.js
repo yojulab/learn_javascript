@@ -151,7 +151,7 @@ for (poll of polls) {
 // Next 클릭 시 순서 있게 설문 표시
 // 대상 변수는 polls
 let queryNext = document.querySelector("#next");
-queryNext.addEventListener("click", ?);
+queryNext.addEventListener("click", setPollContent);
 
 function setPollContent() {
   let queryContent = document.querySelector("#poll-contents");
