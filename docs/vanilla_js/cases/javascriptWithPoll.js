@@ -146,17 +146,3 @@ for (poll of polls) {
     // console.log(`${index + 1}. ${getAnswerByUid(answer_uid)}`);
   });
 }
-
-// Event handlers
-// Next 클릭 시 순서 있게 설문 표시
-// 대상 변수는 polls
-let queryNext = document.querySelector("#next");
-queryNext.addEventListener("click", setPollContent);
-
-function setPollContent() {
-  let queryContent = document.querySelector("#poll-contents");
-  polls[0]["questions_uid"]; // 설문 문항
-  polls[0]["answer_uids"]; // 설문 답항 묶음
-  getQuestionByUid(polls[0]["questions_uid"]);
-  queryContent.innerHTML = "";
-}
