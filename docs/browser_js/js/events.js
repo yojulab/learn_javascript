@@ -1,16 +1,19 @@
-"use strict";
+function changeText() {
+  let queryChangeText = document.querySelector("#changetext");
+  queryChangeText.innerHTML = "Change on Me!";
+}
 
-const btn = document.querySelector("#btn");
+let queryClickalert = document.querySelector("#clickalert");
+// element.addEventListener(event, function, useCapture);
+queryClickalert.addEventListener("click", clickAlert);
+function clickAlert() {
+  alert("click on Me!");
+}
 
-btn.addEventListener("click", () => {
-  console.log("Button Clicked");
-});
+let queryButton = document.querySelector("#buttonChangeText");
+queryButton.addEventListener("click", targetText);
 
-const google = document.querySelector("#google");
-google.addEventListener("click", (event) => {
-  event.preventDefault();
-  console.log("Google Clicked");
-});
-
-// 이벤트 위임
-// refer : https://www.notion.so/Javascript-Window-DOM-BOM-a0d3b424fc4c48559a1827c303b2f903
+function targetText(event) {
+  let queryTargetText = document.querySelector("#targetText");
+  queryTargetText.innerHTML = "Target Text!";
+}

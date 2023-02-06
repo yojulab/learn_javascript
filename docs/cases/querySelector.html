@@ -1,0 +1,76 @@
+<!-- - body 내 모든 형재 출력
+ex) body > *
+<h3> ...
+<h3> ...
+<p> ...
+<button> ...
+<ul> ...
+<ul> ...
+<a> ...
+
+- .list .item 각각 출력(합쳐서가 아님.)
+ex) .list
+IT 회사 종류
+<li class="item">Apple</li>
+<li class="item">Azue</li>
+<li class="item">Samsung</li>
+<li class="item">IBM</li>
+
+과일 종류
+<li class="item">banana</li>
+<li class="item">berry</li>
+<li class="item">melon</li>
+
+* 공유 질문
+lists.forEach((item, index) => {
+
+두번째 파라메터가 항상 인덱스가 되는건가여?
+인덱스라고 안주고 num 으로 줘도 index 값 0, 1, 2 이렇게 들어가는거죠? -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>
+        Selectors
+    </h3>
+    <h3 id="selector">selector with id</h3>
+
+    <p id="title">DOM</p>
+    <button id="btn">Click Me</button>
+    <ul class="list">
+        <li class="item">Apple</li>
+        <li class="item">Azue</li>
+        <li class="item">Samsung</li>
+        <li class="item">IBM</li>
+    </ul>
+    <ul class="list">
+        <li class="item">banana</li>
+        <li class="item">berry</li>
+        <li class="item">melon</li>
+    </ul>
+
+    <a id="google" href="https://www.google.com">Google</a>
+
+    <script>
+        let querylist = document.querySelectorAll(".list")
+        querylist.forEach((list, index) => {
+            console.log(`${index} : ${list.outerHTML}`);
+            // querylist[0].querySelectorAll(".item")
+            let queryItems = list.querySelectorAll(".item")
+            queryItems.forEach((item, index) => {
+                console.log(`${index} : ${item.outerHTML}`);
+            });
+        });
+
+    </script>
+</body>
+
+</html>
