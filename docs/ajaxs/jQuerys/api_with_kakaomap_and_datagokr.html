@@ -13,14 +13,22 @@
     <!-- refer : https://apis.map.kakao.com/web/guide/ -->
     <script type="text/javascript"
         src="//dapi.kakao.com/v2/maps/sdk.js?appkey=506e2a82089f3d0c487dff0440b04ea8"></script>
+    <style>
+        * {
+            border: 0.1rem solid gray;
+        }
 
+        .vh-50 {
+            height: 50vh;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
         <button class="btn btn-primary m-1" id="parmacyInfo">get parmacyInfo</button>
         <div class="row">
-            <div class="" id="map" style="width:500px;height:400px;"></div>
+            <div class="vh-50" id="map"></div>
         </div>
     </div>
     <script>
