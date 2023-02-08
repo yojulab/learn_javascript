@@ -18,22 +18,13 @@
 
 <body>
     <div class="container">
-        <div class="row">
-            <button class="btn btn-primary col-4 gap-2" id="parmacyInfo">get parmacyInfo</button>
-        </div>
+        <button class="btn btn-primary m-1" id="parmacyInfo">get parmacyInfo</button>
         <div class="row">
             <div class="" id="map" style="width:500px;height:400px;"></div>
         </div>
     </div>
     <script>
-        let setCurrentPositionOnMap = function () {
-            navigator.geolocation.getCurrentPosition((position) => {
-
-                var coords = position.coords;
-                drawMap(coords);
-            });
-        }
-
+        // 단순 맵 표시
         let drawMap = function (coords) {
             let _coords = coords;
             if (!_coords) {
@@ -45,11 +36,103 @@
                 level: 3
             };
 
-            var map = new kakao.maps.Map(container, options);
-        }
+            let map = new kakao.maps.Map(container, options);
+
+            //  add function for marker
+            drawMapWithMarkers(map, _coords);
+        };
 
         drawMap();
+
+        // 현재 위치로 맵 표시
+        let setCurrentPositionOnMap = function () {
+            navigator.geolocation.getCurrentPosition((position) => {
+
+                var coords = position.coords;
+                drawMap(coords);
+            });
+        };
+
         setCurrentPositionOnMap();
+
+        // 맵에 현재 위치 마커 표시
+        // refer : https://apis.map.kakao.com/web/sample/addMarkerMouseEvent/
+        function drawMapWithMarkers(map, coords, content) {
+            // 마커가 표시될 위치입니다 
+            var markerPosition = new kakao.maps.LatLng(coords.latitude, coords.longitude);
+
+            // 마커를 생성합니다
+            var marker = new kakao.maps.Marker({
+                position: markerPosition
+            });
+
+            // 마커가 지도 위에 표시되도록 설정합니다
+            marker.setMap(map);
+            content = 'I\'m here!';
+            markerWithContent(map, marker, content);
+        };
+        //  add drawMapWithMarkers in drawMap
+
+        function markerWithContent(map, marker, content) {
+            // 마커에 커서가 오버됐을 때 마커 위에 표시할 인포윈도우를 생성합니다
+            var iwContent = '<div style="padding:5px;">' + content + '</div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+
+            // 인포윈도우를 생성합니다
+            var infowindow = new kakao.maps.InfoWindow({
+                content: iwContent
+            });
+
+            // 마커에 마우스오버 이벤트를 등록합니다
+            kakao.maps.event.addListener(marker, 'mouseover', function () {
+                // 마커에 마우스오버 이벤트가 발생하면 인포윈도우를 마커위에 표시합니다
+                infowindow.open(map, marker);
+            });
+
+            // 마커에 마우스아웃 이벤트를 등록합니다
+            kakao.maps.event.addListener(marker, 'mouseout', function () {
+                // 마커에 마우스아웃 이벤트가 발생하면 인포윈도우를 제거합니다
+                infowindow.close();
+            });
+        };
+        //  add markerWithContent in drawMap
+
+
+        // 약국 위치 정보 가져 오기
+        let getParmacyInfoFromDatagokr = function (params) {
+            $(function () {
+                $.ajax({
+                    // request from datagokr: 국립중앙의료원_전국 약국 정보 조회 서비스
+                    url: "http://localhost:8080/api/v1/requestParamsWithDB",
+                    type: "POST",
+                    data: { 'currentPage': 1, 'pageScale': 10 },
+                    success: function (data, status) {
+                        $("#status").append(status);
+                        // $('#dataID').append(typeof data);
+                        // 하나 하나 확인 표시
+                        // $('#dataID').append(data.paginations.blockScale);
+                        // $('#dataID').append(', ');
+                        // $('#dataID').append(data.resultList[1].NAME);
+                        // $('#dataID').append(', ');
+                        // each
+                        $.each(data.resultList, function (index, item) {
+                            $('#dataID').append('<div>' + index + ', ' + item.NAME + '</div>');
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        $("#error_status").append(status);
+                        $('#error_xhr').append(typeof xhr);
+                        $('#error_error').append(error);
+                    },
+                    complete: function () {
+                        // remove progress bar
+                        $("#complete_status").append("Done!");
+                    },
+                });
+            });
+        };
+
+        let params = {};
+        // getParmacyInfoFromDatagokr(params);
 
 
     </script>
