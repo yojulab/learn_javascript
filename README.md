@@ -29,7 +29,7 @@
 |asynch|await|[js](./docs/vanilla_js/apis/asyncs.js)||
 |api|fetch|[js](./docs/vanilla_js/apis/fetchs.js)|[covid19 > Doc view](https://covid19api.com/)|
 |nodejs|exports, require|[js](./docs/vanilla_js/nodejs/exports_nodejs.js),[js](./docs/vanilla_js/nodejs/require_nodejs.js) |--|
-|nodejs|input readline|[js](./docs/vanilla_js/nodejs/input_with_readline.js |--|
+|nodejs|input readline|[js](./docs/vanilla_js/nodejs/input_with_readline.js) |--|
 |parsing|script async 와 defer의 차이점, use strict||[youtube 8:40](https://youtu.be/tJieVCgGzhs)|
 </details>
 
