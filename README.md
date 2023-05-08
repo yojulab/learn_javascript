@@ -1,9 +1,8 @@
-#### [web pages link](https://yojulab.github.io/learn_javascripts/)
+#### [This Web GitPages link](https://yojulab.github.io/learn_javascripts/)
 
 <details open>
 <summary>Vanilla js 강의 순서</summary>
-#### 수업 참조 : https://youtube.com/playlist?list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2
-    
+
 |분류|주제|구현|참조|
 |--|--|--|--|
 |Dev tool|console, debugging|[js](./docs/vanilla_js/prints.js)|[Test](https://www.acmicpc.net/problem/10171)|
@@ -36,7 +35,6 @@
 
 <details open>
 <summary>Browser js 강의 순서</summary>
-#### 수업 참조 : https://youtube.com/playlist?list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2
     
 |분류|주제|구현|참조|
 |--|--|--|--|
