@@ -9,6 +9,12 @@ counter >= number;
 // == vs ===
 // == is a loose comparison
 // === is a strict comparison
+let third = `4`;
+first = 4;
+// third == first
+// true
+// third === first
+// false
 
 ("use strict");
 const number = 5;
