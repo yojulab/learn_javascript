@@ -39,6 +39,10 @@
 |분류|주제|구현|참조|
 |--|--|--|--|
 |DOM|dom|[htm](./docs/browser_js/doms.html), [js](./docs/browser_js/js/doms.js)||
+|DOM|form_validations|[htm](./docs/browser_js/form_validations.html), [js](./docs/browser_js/js/form_validations.js)||
+|DOM|form_validations|[htm](./docs/browser_js/form_validations.html), [js](./docs/browser_js/js/form_validations.js)||
+|DOM|querySelector|[htm](./docs/browser_js/querySelector.html), [js](./docs/browser_js/js/querySelector.js)||
+|DOM|event_targets, key|[htm](./docs/browser_js/event_targets.html), [js](./docs/browser_js/js/event_targets.js)||
 |event|event|[htm](./docs/browser_js/events.html), [js](./docs/browser_js/js/events.js)||
 |event|propagation|[htm](./docs/browser_js/events_propagation.html), [js](./docs/browser_js/js/events.js)||
 |asych|fatch|[htm](./docs/browser_js/doms.html), [js](./docs/vanilla_js/apis/fetchs.js)||
