@@ -1,12 +1,13 @@
 'use strict';
-# refer : https://www.daleseo.com/js-window-fetch/
-const url = 'https://api.covid19api.com/country/south-africa/status/confirmed?from=2020-03-01T00:00:00Z&to=2020-04-01T00:00:00Z';
-
-const request = fetch(url)
-    .then(response => response.json())
+// refer : https://www.daleseo.com/js-window-fetch/
+    let url = 'https://apis.data.go.kr/3450000/medicalDevSalesPlasService/getMedicalDevSalesPlas?serviceKey=[?]&currentPage=1&perPage=10&SN=1';
+    let request = fetch(url)
+    .then((result) => {
+        result.json();
+    })
     .then((data) => {
         console.log(data);
     })
-    .catch(data => {
-        console.log(data);
+    .catch((errorMeg) => {
+        console.log(errorMeg);
     });
