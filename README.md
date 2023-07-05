@@ -39,7 +39,7 @@
 |분류|주제|구현|참조|
 |--|--|--|--|
 |DOM|dom|[htm](./docs/browser_js/doms.html), [js](./docs/browser_js/js/doms.js)||
-|event|event|[htm](./docs/browser_js/doms.html), [js](./docs/browser_js/js/events.js)||
+|event|event|[htm](./docs/browser_js/events.html), [js](./docs/browser_js/js/events.js)||
 |event|propagation|[htm](./docs/browser_js/events_propagation.html), [js](./docs/browser_js/js/events.js)||
 |asych|fatch|[htm](./docs/browser_js/doms.html), [js](./docs/vanilla_js/apis/fetchs.js)||
 </details>
