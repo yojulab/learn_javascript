@@ -62,7 +62,8 @@
 
 |분류|주제|구현|참조|
 |--|--|--|--|
-|browser js|maps|[html](./docs/browser_js/cases/maps/maps.html), [js kakao](./docs/browser_js/cases/maps/js/maps_kakao.js), [js google](./docs/browser_js/cases/maps/js/maps_google.js)|[url-kakaomap](https://apis.map.kakao.com/web/sample/), [google chart](https://developers.google.com/chart/interactive/docs/gallery)|
+|browser js|google charts|[html various](./docs/browser_js/cases/charts/charts_google_various.html), [html interactive](./docs/browser_js/cases/charts/charts_google_interactive.html)|[google chart](https://developers.google.com/chart/interactive/docs/gallery)|
+|browser js|maps|[html](./docs/browser_js/cases/maps/maps.html), [html](./docs/browser_js/cases/maps/maps.html), [js kakao](./docs/browser_js/cases/maps/js/maps_kakao.js), [js google](./docs/browser_js/cases/maps/js/maps_google.js)|[url-kakaomap](https://apis.map.kakao.com/web/sample/), [google chart](https://developers.google.com/chart/interactive/docs/gallery)|
 |vanilla_js|min and max|[js](./docs/vanilla_js/cases/loops_min_max.js)|[백준](https://www.acmicpc.net/problem/10818)|
 |vanilla_js|With Poll|[js](./docs/vanilla_js/cases/javascriptWithPoll.js), [js object](./docs/vanilla_js/cases/javascriptWithPoll_object.js)|[refer url](https://drive.google.com/drive/folders/1IF_3U5OVbPGTtY3_p9k7oaTxuKN4TDC0)|
 |browser js|style display, visibility|[html](./docs/browser_js/cases/hide_elements/hide_elements.html)|[url - w3schools > Hide an Element ](https://www.w3schools.com/css/css_display_visibility.asp)|
