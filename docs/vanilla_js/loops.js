@@ -1,54 +1,40 @@
-const animals = ["dog", "cat", "bird", "fish", "lizard"];
+// string - String
+// 숫자 - Number
+// ArrayList = Array []
+// HashMap = Object  {}
 
-// Normal
-for (let i = 2; i < animals.length; i++) {
-  console.log(`${animals[i]}`);
-}
+// let animals = ["dog", "cat", "bird", "fish", "lizard"];
 
-// for iterable
-for (let animal of animals) {
-  console.log(`${animal}`);
-}
+// console.log(`Done`);
 
+// for (let i=0;i<animals.length;i=i+1){
+//     console.log(`${i+1} : ${animals[i]}`);
+// }
+
+// // for (String animal : animals)
+// for (let animal of animals){
+//     console.log(`${animal}`);
+// }
+
+// learning after object
 const animals_obj = [
-  //   animal,
-  { name: "cat", species: "feline" },
-  { name: "bird", species: "avian" },
-  { name: "fish", species: "aquatic" },
-  { name: "lizard", species: "reptile" },
-];
+    { name: "dog", species: "canine" },
+    { name: "cat", species: "feline" },
+    { name: "bird", species: "avian" },
+    { name: "fish", species: "aquatic" },
+    { name: "lizard", species: "reptile" },
+  ];
 
-for (let animal of animals_obj) {
-  console.log(`${animal["name"]}, ${animal["species"]}`);
-  console.log();
-}
+let outHtml = ``;
+for (let animal_hashmap of animals_obj){
+    console.log(`name : ${animal_hashmap.name}, species : ${animal_hashmap['species']}`);
+    outHtml = `${outHtml}<div>name : ${animal_hashmap.name}, species : ${animal_hashmap['species']}</div>`;
+}  
+console.log(outHtml);
 
-// for (variable of iterable) {
-//     // code block to be executed
-//   }
-const cars = ["BMW", "Volvo", "Mini"];
-for (let car of cars) {
-  console.log(`${car}`);
-  //cars[0];
-}
-//car;
-cars.forEach((car) => {
-  console.log(`${car}`);
-});
+// brower 자원 중에 docs
+let loops_source = document.querySelector('#loops');
 
-// forEach
-const array1 = ["a", "b", "c"];
-
-array1.forEach((element, i) => console.log(element));
-
-// Arrow Function
-let arrowFunction = (element, index) => {
-  console.log(`${element}, index ${index}`);
-};
-array1.forEach(arrowFunction);
-
-// Normal Function
-function normalFunction(element) {
-  console.log(element);
-}
-array1.forEach(normalFunction);
+// loops_source
+// <div id=​"loops">​inner text​</div>​
+loops_source.innerHTML = outHtml

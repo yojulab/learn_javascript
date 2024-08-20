@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commons</title>
+</head>
+
+<body>
+    <div>Commons</div>
+    <div>print : ./js/prints.js</div>
+    <div>conditions : ./js/conditions.js</div>
+    <div>loops : ./js/loops.js
+        <div id="loops">inner text</div>
+    </div>
+    <div>arrays : ./js/arrays.js</div>
+    <div>functions : ./js/functions.js</div>
+    <div>
+        events : ./js/events.js
+        <div>
+            <button onclick="alert('This is Alert Function!')">alert</button>
+        </div>
+        <div onclick="alert('This is Div Event!')">Div Event</div>
+        <div><input type="text" name="" id="keydownEnter"></div>
+    </div>
+    <div>functions : ./js/fetchs.js</div>
+    <div>
+        <form action="/" method="get">
+            <input type="text" id="name" placeholder="이름을 입력하세요.">
+            <input type="submit" id="submit" value="제출">
+        </form>
+
+        <script>
+            function checkForm() {
+                // 폼의 모든 input을 가져온다.
+                var inputs = document.querySelectorAll("input");
+
+                // input에 값이 있는지 확인한다.
+                for (var i = 0; i < inputs.length; i++) {
+                    if (inputs[i].value === "") {
+                        // 값이 없으면 경고창을 띄운다.
+                        console.log("모든 입력란을 채워주세요.");
+                        // 이벤트를 중단한다.
+                        event.preventDefault();
+                        // 반복문을 종료한다.
+                        return false;
+                    }
+                }
+            }
+
+            document.querySelector("#submit").addEventListener("click", checkForm);
+        </script>
+    </div>
+
+</body>
+<script src="./js/fetchs.js"></script>
+
+</html>
